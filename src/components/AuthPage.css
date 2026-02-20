@@ -1,0 +1,116 @@
+/* AuthPage styles — matches the emerald green theme from App.css */
+
+.auth-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.auth-app-title {
+  font-size: 3.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+  color: #10b981;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.auth-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 380px;
+  overflow: hidden;
+}
+
+/* Tabs */
+.auth-tabs {
+  display: flex;
+  border-bottom: 1px solid #d1fae5;
+}
+
+.auth-tab {
+  flex: 1;
+  padding: 0.875rem;
+  border: none;
+  background: #fafafa;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.auth-tab:hover {
+  background: #f0fdf4;
+  color: #10b981;
+}
+
+.auth-tab.active {
+  background: #ffffff;
+  color: #10b981;
+  font-weight: 600;
+  border-bottom: 2px solid #10b981;
+}
+
+/* Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem;
+}
+
+.auth-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.auth-input {
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #d1fae5;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #1e293b;
+  outline: none;
+  transition: border-color 0.15s;
+  width: 100%;
+}
+
+.auth-input:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+}
+
+.auth-error {
+  font-size: 0.85rem;
+  color: #ef4444;
+  margin: 0;
+}
+
+.auth-success {
+  font-size: 0.85rem;
+  color: #10b981;
+  margin: 0;
+}
+
+.auth-submit {
+  margin-top: 0.25rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background: #10b981;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.auth-submit:hover {
+  background: #059669;
+}
