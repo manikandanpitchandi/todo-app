@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #6366f1;
-  --color-primary-hover: #4f46e5;
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
   --color-danger: #ef4444;
   --color-text: #1e293b;
   --color-text-muted: #64748b;
   --color-text-done: #94a3b8;
-  --color-border: #e2e8f0;
+  --color-border: #d1fae5;
   --color-bg-card: #ffffff;
   --radius: 10px;
 }
@@ -21,7 +21,7 @@
   letter-spacing: 0.2em;
   color: var(--color-primary);
   margin-bottom: 1.5rem;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 /* Card */

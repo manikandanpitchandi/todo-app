@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1 className="app-title">todos</h1>
+      <h1 className="app-title">Task Manager</h1>
       <div className="card">
         <TodoInput onAdd={addTodo} />
         <TodoList
