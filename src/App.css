@@ -41,6 +41,11 @@
   color: var(--color-text-muted);
 }
 
+.app-username strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
 .logout-btn {
   padding: 0.35rem 0.85rem;
   border: 1px solid var(--color-primary);

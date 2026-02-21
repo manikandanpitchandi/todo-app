@@ -76,7 +76,7 @@ export default function App() {
       <div className="app-header">
         <h1 className="app-title">Task Manager</h1>
         <div className="app-user">
-          <span className="app-username">{user}</span>
+          <span className="app-username">Hi, <strong>{user}</strong></span>
           <button className="logout-btn" onClick={handleLogout}>Log Out</button>
         </div>
       </div>
